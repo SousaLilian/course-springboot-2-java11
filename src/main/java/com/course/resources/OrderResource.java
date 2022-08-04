@@ -13,8 +13,8 @@ import com.course.entities.User;
 import com.course.services.UserService;
 
 @RestController
-@RequestMapping(value = "/orders")
-public class UserResource {
+@RequestMapping(value = "/users")
+public class OrderResource {
 
 	@Autowired
 	private UserService service;
